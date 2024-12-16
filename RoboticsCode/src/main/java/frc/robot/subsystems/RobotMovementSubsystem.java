@@ -5,7 +5,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import com.ctre.phoenix6.hardware.TalonFX;
 import frc.robot.Constants.MotorConstants;
 
-public class RobotMovement extends SubsystemBase{
+public class RobotMovementSubsystem extends SubsystemBase{
     
     public TalonFX frontLeftMotor = new TalonFX(MotorConstants.kFrontLeftMotorPort);
     public TalonFX backLeftMotor = new TalonFX(MotorConstants.kBackLeftMotorPort);
@@ -14,7 +14,7 @@ public class RobotMovement extends SubsystemBase{
     public TalonFX backRightMotor = new TalonFX(MotorConstants.kBackRightMotorPort);
 
 
-    public RobotMovement(){
+    public RobotMovementSubsystem(){
 
     }
 
