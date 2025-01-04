@@ -2,9 +2,9 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-public class BallShoot extends SubsystemBase{
+public class BallShootSubsystem extends SubsystemBase{
     
-    public BallShoot(){
+    public BallShootSubsystem(){
 
     }
 
